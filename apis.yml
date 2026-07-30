@@ -1,4 +1,16 @@
 aid: launch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/launch.png
 name: Launch
 description: Launch is a company surfaced as a portfolio company of general-catalyst and added to the
   API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -9,9 +21,23 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  last_run: '2026-07-19'
+  result: unidentified
+  note: >-
+    Enrichment could not resolve "Launch" to a real company. The general-catalyst
+    portfolio harvest recorded no url, sector, or description for this entry
+    (all/general-catalyst/portfolio/general-catalyst-portfolio.yml), and the name
+    could not be matched to a company on generalcatalyst.com/portfolio on re-fetch.
+    Candidate domains probed (launch.com, trylaunch.com, launch.co, uselaunch.com,
+    launchhq.com, getlaunch.com, launch.ai, withlaunch.com) resolved to parked
+    domains, for-sale listings, or unrelated businesses; none carries evidence of
+    General Catalyst backing. No artifacts were produced — identifying the company
+    (a domain in the source lead) is a prerequisite for any further enrichment.
+    This entry may be a harvest artifact rather than a real portfolio company.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 apis: []
